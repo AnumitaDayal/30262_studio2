@@ -71,9 +71,7 @@
     };
     
     var popup = new mapboxgl.Popup({offset: popupOffsets, className: 'my-class'})
-    .setLngLat(e.lngLat)
     .setHTML("<h1><b>The Presidio.</b><br /> Explore to find a drinking fountain!</h1>")
-    .setMaxWidth("300px")
     .addTo(map);
 
     /* Create a variable called "marker," 
